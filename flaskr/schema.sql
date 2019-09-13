@@ -19,5 +19,6 @@ CREATE TABLE post (
 CREATE TABLE articles (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   title TEXT,
-  contents TEXT
+  contents TEXT,
+  link TEXT
 );
